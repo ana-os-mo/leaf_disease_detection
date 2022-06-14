@@ -1,0 +1,21 @@
+# create environment: conda env create -f environment.yml
+# activate environment: conda activate viar_final
+# deactivate environment: conda deactivate
+
+name: viar_final
+
+channels:
+  - plotly
+  - defaults
+
+dependencies:
+  - python=3.8.12
+  - pip
+  - matplotlib=3.5.1
+  - notebook=6.4.8
+  - numpy=1.21.5
+  - pandas=1.4.1
+  - plotly_express=0.4.1
+  - scikit-image=0.18.3
+  - pip:
+    - opencv-contrib-python==4.5.5.64
